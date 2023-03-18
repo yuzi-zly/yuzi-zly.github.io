@@ -1,23 +1,23 @@
 ---
-title: 'INFUSE: Towards Efficient Context Consistency by Incremental-Concurrent Check Fusion'
+title: 'HmwkCheck: a homework auto-checking system based on arithmetic operation recognition using smartphones'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Huiyan Wang
-  - Chang Xu
-  - Ping Yu
+  - Yafeng Yin
+  - Lei Xie
+  - Sanglu Lu
 
 # Author notes (optional)
 author_notes:
 
-date: '2022-10-07T00:00:00Z'
-doi: '10.1109/ICSME55016.2022.00025'
+date: '2020-09-12T00:00:00Z'
+doi: 'https://doi.org/10.1145/3410530.3414393'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2022-10-07T00:00:00Z'
+publishDate: '2020-09-12T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -26,10 +26,11 @@ publishDate: '2022-10-07T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: 2022 IEEE International Conference on Software Maintenance and Evolution
-publication_short: ICSME
+publication: Adjunct Proceedings of the 2020 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2020 ACM International Symposium on Wearable Computers
+publication_short: UbiComp-ISWC 
 
-abstract: Nowadays applications are getting increasingly attractive by being capable of adapting their behaviors based on their understanding to running environments (a.k.a. contexts). However, such capability can be subject to illness or even unexpected crash, when contexts, for suffering environmental noises, become inaccurate or even conflict with each other. Fortunately, various constraint checking techniques have been proposed to validate contexts against consistency constraints, in order to guard context consistency for applications in a timely manner. However, with the growth of environmental dynamics and context volume, it is getting more and more challenging to check context consistency in time. In this paper, we propose a novel approach, INFuse, to soundly fuse together two lines of techniques, namely, incremental checking and concurrent checking, for efficient constraint checking. Realizing such check fusion has to address the challenges rising from the gap between the micro analysis for reusable elements in incremental checking and the macro collection of parallel tasks in concurrent checking. INFuse solves the challenges by automatically deciding maximal concurrent boundaries for context changes under checking (i.e., what-correctness problem), and soundly fusing incremental and concurrent checking for context consistency (i.e., how-correctness problem), with theoretical guarantees. Our experimental evaluation with real-world data shows that INFuse could improve constraint checking efficiency by 18.6x–171.1x, as compared with existing state-of-the-art techniques.
+abstract: The homework for low-grade pupils often contains simple arithmetic problems, i.e., four arithmetic operations. To evaluate the learning quality of pupils, teachers and parents often need to check the homework manually, which is time and labor consuming. In this paper, we propose a homework auto-checking system HmwkCheck, which checks the four arithmetic operations automatically. Specifically, HmwkCheck utilizes the embedded camera of a smartphone to capture the homework as an image, and then processes the image in the smartphone to detect, segment and recognize both printed characters and handwritten characters. We implement HmwkCheck in an Android smartphone. The experiment results show that HmwkCheck can check homework efficiently, i.e., the average precision, recall and F1-score of character recognition achieve 94.03%, 93.41% and 93.72%, respectively.
+
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -44,12 +45,12 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'publication/infuse/infuse.pdf'
-url_code: 'https://github.com/yuzi-zly/INFUSE'
+url_pdf: 'publication/hmwcheck/hmwcheck.pdf'
+url_code: 'https://github.com/yuzi-zly/UbicompPoster-Char74k-CNN'
 # url_dataset: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 # url_poster: ''
 # url_project: ''
-url_slides: 'publication/infuse/slides.pdf'
+# url_slides: 'publication/infuse/slides.pdf'
 # url_source: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 # url_video: 'https://youtube.com'
 

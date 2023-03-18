@@ -35,12 +35,12 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Computer Science and Technology
+    - course: Ph.D. in Software Engineering
       institution: Department of Computer Science and Technology, Nanjing University
-      year: 2026 (expected)
-    - course: BSc in Computer Science and Technology
+      year: 2021-2026 (expected)
+    - course: B.S. in Computer Science and Technology
       institution: Kuang Yaming Honors School, Nanjing University
-      year: 2021
+      year: 2017-2021
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -73,8 +73,8 @@ email: 'zly@smail.nju.edu.cn'
 highlight_name: true
 ---
 
-Hello! This is Lingyu Zhang (张灵毓). I am currently a Ph.D. student supervised by Assistant Researcher [Huiyan Wang](http://www.why.ink:8080) and Professor [Chang Xu](https://cs.nju.edu.cn/changxu/index.htm) at [the Institute of Computer Science (ICS)](https://cs.nju.edu.cn/ics/index.htm), [State Key Laboratory for Novel Software Technology](https://keysoftlab.nju.edu.cn/main.htm), [Department of Computer Science and Technology](https://cs.nju.edu.cn/main.htm), [Nanjing University](https://www.nju.edu.cn/). My research interests include context management, software quality assurance, software analyses and testing.
+Hello! This is Lingyu Zhang (张灵毓). I am currently a Ph.D. student supervised by Assistant Researcher [Huiyan Wang](http://www.why.ink:8080) and Professor [Chang Xu](https://cs.nju.edu.cn/changxu/index.htm) at the Institute of Computer Science (ICS), State Key Laboratory for Novel Software Technology, Department of Computer Science and Technology, Nanjing University. My research interests include context management, software quality assurance, software analyses and testing.
 
-Before joining ICS, I obtained my Bachelor’s in Computer Science and Technology from [Kuang Yaming Honors School](https://dii.nju.edu.cn/main.htm), Nanjing University, Jiangsu, China in 2021.
+Before joining ICS, I obtained my Bachelor’s in Computer Science and Technology from Kuang Yaming Honors School, Nanjing University, Jiangsu, China in 2021.
 
 {style="text-align: justify;"}

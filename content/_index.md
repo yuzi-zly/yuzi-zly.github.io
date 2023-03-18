@@ -26,41 +26,41 @@ sections:
   #         description: 10%
   #         icon: camera-retro
   #         icon_pack: fas
-  # - block: experience
-  #   content:
-  #     title: Experience
-  #     # Date format for experience
-  #     #   Refer to https://wowchemy.com/docs/customization/#date-format
-  #     date_format: Jan 2006
-  #     # Experiences.
-  #     #   Add/remove as many `experience` items below as you like.
-  #     #   Required fields are `title`, `company`, and `date_start`.
-  #     #   Leave `date_end` empty if it's your current employer.
-  #     #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-  #     items:
-  #       - title: CEO
-  #         company: GenCoin
-  #         company_url: ''
-  #         company_logo: org-gc
-  #         location: California
-  #         date_start: '2021-01-01'
-  #         date_end: ''
-  #         description: |2-
-  #             Responsibilities include:
+  - block: experience
+    content:
+      title: Experience
+      # Date format for experience
+      #   Refer to https://wowchemy.com/docs/customization/#date-format
+      date_format: Jan 2006
+      # Experiences.
+      #   Add/remove as many `experience` items below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: Ph.D. Student
+          company: SPAR Group, Computer Science and Technology, Nanjing University (NJU)
+          company_url: 'https://cs.nju.edu.cn/ics/spar/index.html'
+          # company_logo: org-x
+          location: Nanjing, Jiangsu, China
+          date_start: '2021-09-01'
+          date_end: ''
+          description: Under the supervision of Prof. [Chang Xu](https://cs.nju.edu.cn/changxu/index.htm).
+        - title: Undergraduate Student
+          company: Kuang Yaming Honors School, Nanjing University (NJU)
+          company_url: 'https://dii.nju.edu.cn/main.htm'
+          # company_logo: org-gc
+          location: Nanjing, Jiangsu, China
+          date_start: '2017-09-01'
+          date_end: '2021-06-19'
+          # description: |2-
+          #     Responsibilities include:
 
-  #             * Analysing
-  #             * Modelling
-  #             * Deploying
-  #       - title: Professor of Semiconductor Physics
-  #         company: University X
-  #         company_url: ''
-  #         company_logo: org-x
-  #         location: California
-  #         date_start: '2016-01-01'
-  #         date_end: '2020-12-31'
-  #         description: Taught electronic engineering and researched semiconductor physics.
-  #   design:
-  #     columns: '2'
+          #     * Analysing
+          #     * Modelling
+          #     * Deploying
+    design:
+      columns: '1'
   # - block: accomplishments
   #   content:
   #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
@@ -99,7 +99,7 @@ sections:
   #         title: 'Object-Oriented Programming in R'
   #         url: ''
   #   design:
-  #     columns: '2'
+  #     columns: '1'
   # - block: collection
   #   id: posts
   #   content:
@@ -127,33 +127,6 @@ sections:
   #     # Choose a layout view
   #     view: compact
   #     columns: '2'
-  # - block: portfolio
-  #   id: projects
-  #   content:
-  #     title: Projects
-  #     filters:
-  #       folders:
-  #         - project
-  #     # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
-  #     default_button_index: 0
-  #     # Filter toolbar (optional).
-  #     # Add or remove as many filters (`filter_button` instances) as you like.
-  #     # To show all items, set `tag` to "*".
-  #     # To filter by a specific tag, set `tag` to an existing tag name.
-  #     # To remove the toolbar, delete the entire `filter_button` block.
-  #     buttons:
-  #       - name: All
-  #         tag: '*'
-  #       - name: Deep Learning
-  #         tag: Deep Learning
-  #       - name: Other
-  #         tag: Demo
-  #   design:
-  #     # Choose how many columns the section has. Valid values: '1' or '2'.
-  #     columns: '1'
-  #     view: showcase
-  #     # For Showcase view, flip alternate rows?
-  #     flip_alt_rows: false
   # - block: markdown
   #   content:
   #     title: Gallery
@@ -184,20 +157,37 @@ sections:
       filters:
         folders:
           - publication
-        exclude_featured: false
+        exclude_featured: true
     design:
       columns: '1'
       view: citation
-  - block: collection
+  - block: portfolio
     id: presentations
     content:
       title: Presentations
       filters:
         folders:
-          - event
+          - presentation
+      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+      default_button_index: 0
+      # Filter toolbar (optional).
+      # Add or remove as many filters (`filter_button` instances) as you like.
+      # To show all items, set `tag` to "*".
+      # To filter by a specific tag, set `tag` to an existing tag name.
+      # To remove the toolbar, delete the entire `filter_button` block.
+      buttons:
+        # - name: All
+        #   tag: '*'
+        - name: Paper Symposium
+          tag: Paper Symposium
+        - name: Other
+          tag: Other
     design:
+      # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
-      view: compact
+      view: compat
+      # For Showcase view, flip alternate rows?
+      flip_alt_rows: false
   # - block: tag_cloud
   #   content:
   #     title: Popular Topics
@@ -229,6 +219,10 @@ sections:
         - icon: weixin
           icon_pack: fab
           name: yuziyaojiayou
+        - icon: github
+          icon_pack: fab
+          name: yuzi-zly
+          link: https://github.com/yuzi-zly
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider

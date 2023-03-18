@@ -1,0 +1,20 @@
+---
+title: "MEMLOCK: Memory Usage Guided Fuzzing [ICSE' 20]"
+
+# Talk start and end times.
+#   End time can optionally be hidden by prefixing the line with `#`.
+date: '2022-05-24T14:00:00Z'
+# date_end: '2030-07-01T15:00:00Z'
+# Schedule page publish date (NOT talk date).
+publishDate: '2017-01-01T00:00:00Z'
+
+tags: [Paper Symposium]
+
+doi: 'https://doi.org/10.1145/3377811.3380396'
+
+# Is this a featured talk? (true/false)
+featured: false
+share: false
+
+external_link: '/presentation/memlock/2022-05-24-MemLock.pdf'
+---
