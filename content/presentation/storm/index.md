@@ -1,5 +1,5 @@
 ---
-title: Detecting Critical Bugs in SMT Solvers Using Blackbox Mutational Fuzzing [ESEC/FSE' 20]
+title: Detecting Critical Bugs in SMT Solvers Using Blackbox Mutational Fuzzing [ESEC/FSE 2020]
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

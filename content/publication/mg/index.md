@@ -11,12 +11,6 @@ authors:
   - Chang Xu
   - Ping Yu
 
-# Author notes (optional)
-author_notes:
-
-date: '2022-11-03T00:00:00Z'
-doi: '10.1109/ISSRE55969.2022.00013'
-
 # Schedule page publish date (NOT publication's date).
 publishDate: '2022-11-03T00:00:00Z'
 
@@ -27,10 +21,14 @@ publishDate: '2022-11-03T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: 2022 IEEE 33rd International Symposium on Software Reliability Engineering
-publication_short: ISSRE
+publication: Proceedins of the 33rd International Symposium on Software Reliability Engineering
+publication_short: ISSRE 2022
 
-abstract: Adaptive applications rely on conditions about their environments (or contexts) to deliver smart services, e.g., location-aware services. Due to inherent noises in environmental sensing and interpretation, there is an increasing demand for guarding the consistency of contexts to avoid application misbehavior, and at the same time minimizing the guarding cost. Existing work has tried to reduce the cost by speeding up the kernel constraint checking module inside the consistency guarding process. Most efforts have been spent on reusing previous checking results or checking constraints in parallel, while leaving untouched one central problem of link generation, the step that consumes a substantially large part of the total time cost for explaining why constraints have been violated. In this paper, we propose a novel technique, MG, to automatically identify and remove redundant link generation, without harming any checking result. We show that MG is sound (always checking correctly) and complete (removing all redundancy). Our experiments with synthesized and real-world consistency constraints reported that compared with existing work, MG achieved significant efficiency improvements on the link generation (tens to hundreds times speedup), and could reduce the total constraint checking time up to 45.4%.
+# Author notes (optional)
+ccf: 'CCF-B'
+location: 'Charlotte, NC, USA'
+date: '2022-11-03T00:00:00Z'
+doi: '10.1109/ISSRE55969.2022.00013'
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.

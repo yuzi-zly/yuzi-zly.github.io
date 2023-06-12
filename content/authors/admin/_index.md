@@ -28,7 +28,7 @@ organizations:
 
 # Interests to show in About widget
 interests:
-  - Context Management
+  - Consistency Management
   - Software Quality Assurance
   - Software Analyses and Testing
 

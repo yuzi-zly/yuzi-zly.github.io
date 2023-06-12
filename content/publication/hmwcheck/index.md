@@ -10,12 +10,6 @@ authors:
   - Lei Xie
   - Sanglu Lu
 
-# Author notes (optional)
-author_notes:
-
-date: '2020-09-12T00:00:00Z'
-doi: 'https://doi.org/10.1145/3410530.3414393'
-
 # Schedule page publish date (NOT publication's date).
 publishDate: '2020-09-12T00:00:00Z'
 
@@ -27,9 +21,13 @@ publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
 publication: Adjunct Proceedings of the 2020 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2020 ACM International Symposium on Wearable Computers
-publication_short: UbiComp-ISWC 
+publication_short: UbiComp-ISWC 2022 Poster
 
-abstract: The homework for low-grade pupils often contains simple arithmetic problems, i.e., four arithmetic operations. To evaluate the learning quality of pupils, teachers and parents often need to check the homework manually, which is time and labor consuming. In this paper, we propose a homework auto-checking system HmwkCheck, which checks the four arithmetic operations automatically. Specifically, HmwkCheck utilizes the embedded camera of a smartphone to capture the homework as an image, and then processes the image in the smartphone to detect, segment and recognize both printed characters and handwritten characters. We implement HmwkCheck in an Android smartphone. The experiment results show that HmwkCheck can check homework efficiently, i.e., the average precision, recall and F1-score of character recognition achieve 94.03%, 93.41% and 93.72%, respectively.
+# Author notes (optional)
+ccf: 'CCF-A'
+location: 'Virtual conference'
+date: '2020-09-12T00:00:00Z'
+doi: 'https://doi.org/10.1145/3410530.3414393'
 
 
 # Summary. An optional shortened abstract.

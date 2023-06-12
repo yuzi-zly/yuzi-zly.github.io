@@ -8,8 +8,7 @@ sections:
   - block: v1/about
     id: about
     content:
-      username: admin
-      text: 
+      username: admin 
   # - block: features
   #   content:
   #     title: Skills
@@ -185,7 +184,7 @@ sections:
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
-      view: compat
+      view: list
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
   # - block: tag_cloud

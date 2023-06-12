@@ -1,5 +1,5 @@
 ---
-title: Finding and Understanding Bugs in C Compilers [PLDI' 11]
+title: Finding and Understanding Bugs in C Compilers [PLDI 2011]
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

@@ -1,5 +1,5 @@
 ---
-title: "MEMLOCK: Memory Usage Guided Fuzzing [ICSE' 20]"
+title: "MEMLOCK: Memory Usage Guided Fuzzing [ICSE 2020]"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
