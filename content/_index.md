@@ -101,8 +101,9 @@ sections:
     content:
       title: Teaching
       text: |-
-        - 2023 Spring, TA, Principles and Techniques of Compiler (taught by Prof. Chang Xu)
-        - 2022 Spring, TA, Principles and Techniques of Compiler (taught by Prof. Chang Xu)
+        - 2023 Fall,   TA, Introduction to Computer Systems      
+        - 2023 Spring, TA, Principles and Techniques of Compiler
+        - 2022 Spring, TA, Principles and Techniques of Compiler
     design:
       columns: '1'
   # - block: portfolio

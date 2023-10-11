@@ -43,7 +43,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-# url_pdf: 'publication/infuse/infuse.pdf'
+url_pdf: 'publication/infuseext/preprint.pdf'
 # url_code: 'https://github.com/yuzi-zly/INFUSE'
 # url_dataset: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 # url_poster: ''
