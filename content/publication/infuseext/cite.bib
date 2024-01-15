@@ -1,0 +1,13 @@
+@article{ZHANG2024111852,
+title = {Incremental-concurrent fusion checking for efficient context consistency},
+journal = {Journal of Systems and Software},
+volume = {207},
+pages = {111852},
+year = {2024},
+issn = {0164-1212},
+doi = {https://doi.org/10.1016/j.jss.2023.111852},
+url = {https://www.sciencedirect.com/science/article/pii/S0164121223002479},
+author = {Lingyu Zhang and Huiyan Wang and Chuyang Chen and Chang Xu and Ping Yu},
+keywords = {Constraint checking, Context consistency, Check fusion},
+abstract = {Smart applications can adapt their behaviors based on their understanding to environments (a.k.a. contexts). This capability can, however, incur unexpected misbehavior or even crash, when application contexts are inaccurate or conflicting with each other due to environmental noises. In the recent decade, various constraint checking techniques have been proposed to help validate contexts against consistency constraints, in order to guard context consistency in time. However, with growing environmental dynamics and context volume, it is getting increasingly challenging to ensure context consistency. In this article, we propose a novel approach, INFuse, to fuse together two lines of techniques, namely, incremental checking and concurrent checking, for sound and efficient constraint checking. Realizing such check fusion has to address the challenges rising from the gap between the micro analysis for reusable elements in incremental checking and the macro collection of parallel tasks in concurrent checking. INFuse solves them by automatically deciding maximal concurrent boundaries in a sequence of context changes, and soundly fusing incremental and concurrent checking together for context consistency, with theoretical guarantees. Our experimental evaluation with real-world context data shows that INFuse could improve constraint checking efficiency by 3.0x–120.3x, as compared with existing state-of-the-art techniques, with better checking quality.}
+}

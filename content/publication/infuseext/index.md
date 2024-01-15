@@ -23,12 +23,12 @@ publication_types: ['2']
 # Publication name and optional abbreviated publication name.
 publication: The Journal of Systems and Software
 publication_short: JSS
-
-# Author notes (optional)
 ccf: 'CCF-B'
-date: '2023-12-31T00:00:00Z'
-
-comment: 'forthcoming'
+date: '2024-01-31T00:00:00Z'
+doi:  '10.1016/j.jss.2023.111852'
+volumn: '207'
+article: '111852' 
+# comment: 'forthcoming'
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -43,7 +43,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'publication/infuseext/preprint.pdf'
+url_pdf: 'publication/infuseext/jss24.pdf'
 # url_code: 'https://github.com/yuzi-zly/INFUSE'
 # url_dataset: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 # url_poster: ''

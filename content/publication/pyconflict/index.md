@@ -22,13 +22,12 @@ publication_types: ['1']
 # Publication name and optional abbreviated publication name.
 publication: Proceedings of the 31st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering
 publication_short: ESEC/FSE 2023
-
-# Author notes (optional)
 ccf: 'CCF-A'
 location: 'San Francisco, California, USA'
 date: '2023-12-01T00:00:00Z'
-
-comment: 'forthcoming'
+doi: '10.1145/3611643.3616264'
+pp: '198-210'
+# comment: 'forthcoming'
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -43,7 +42,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-# url_pdf: 'publication/infuse/infuse.pdf'
+url_pdf: 'publication/pyconflict/fse23.pdf'
 # url_code: 'https://github.com/yuzi-zly/INFUSE'
 # url_dataset: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 # url_poster: ''

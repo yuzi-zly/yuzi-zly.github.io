@@ -22,13 +22,11 @@ publication_types: ['1']
 # Publication name and optional abbreviated publication name.
 publication: Adjunct Proceedings of the 2020 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2020 ACM International Symposium on Wearable Computers
 publication_short: UbiComp-ISWC 2020 Poster
-
-# Author notes (optional)
 ccf: 'CCF-A'
 location: 'Virtual conference'
 date: '2020-09-12T00:00:00Z'
 doi: 'https://doi.org/10.1145/3410530.3414393'
-
+pp:  '172-175'
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.

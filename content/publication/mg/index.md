@@ -23,12 +23,11 @@ publication_types: ['1']
 # Publication name and optional abbreviated publication name.
 publication: Proceedins of the 33rd International Symposium on Software Reliability Engineering
 publication_short: ISSRE 2022
-
-# Author notes (optional)
 ccf: 'CCF-B'
 location: 'Charlotte, NC, USA'
 date: '2022-11-03T00:00:00Z'
 doi: '10.1109/ISSRE55969.2022.00013'
+pp:  '13-24'
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.

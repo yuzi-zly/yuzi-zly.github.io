@@ -22,12 +22,11 @@ publication_types: ['1']
 # Publication name and optional abbreviated publication name.
 publication: Proceedings of the 38th IEEE International Conference on Software Maintenance and Evolution
 publication_short: ICSME 2022
-
-# Author notes (optional)
 ccf: 'CCF-B'
 location: 'Limassol, Cyprus'
 date: '2022-10-07T00:00:00Z'
 doi: '10.1109/ICSME55016.2022.00025'
+pp:  '187-198'
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.

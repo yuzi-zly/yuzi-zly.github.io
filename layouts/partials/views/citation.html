@@ -17,12 +17,16 @@
     {{- $item.Params.publication | markdownify -}}.
   {{ end }} -->
   {{ $item.Title }}.
-  <!-- 处理publication名字 -->
+  <!-- 处理会议或期刊的名字和相关信息 -->
   {{ if $.item.Params.publication_types }}
     {{ if eq (index $.item.Params.publication_types 0) "1"}}
-        <i>In</i> <i>{{- $item.Params.publication | markdownify -}}</i> <i>({{- $item.Params.publication_short | markdownify -}}),</i>
+        <i>In</i> <i>{{- $item.Params.publication | markdownify -}}</i> 
+        <i>({{- $item.Params.publication_short | markdownify -}}) </i> 
+        , pp.&nbsp; {{- $item.Params.pp | markdownify -}},
     {{ else if eq (index $.item.Params.publication_types 0) "2"}}
-        <i>{{- $item.Params.publication | markdownify -}}</i> <i>({{- $item.Params.publication_short | markdownify -}}),</i>
+        <i>{{- $item.Params.publication | markdownify -}}</i>
+        <i>({{- $item.Params.publication_short | markdownify -}})</i>
+        , Vol.&nbsp; {{- $item.Params.Volumn | markdownify -}}, Article&nbsp; {{- $item.Params.article | markdownify -}},
     {{ else }}
         <font color="red">Unexpected publication_types!</font>
     {{ end }}
@@ -33,13 +37,13 @@
       {{ if $item.Params.comment }}
           <span>{{ $item.Params.location }},</span> <span>{{- $item.Date.Format "2006" -}},</span> <span>{{- $item.Params.comment -}}.</span>
       {{ else }}
-          <span>{{ $item.Params.location }},</span> <span>{{- $item.Date.Format "Jan, 2006" -}}.</span>
+          <span>{{ $item.Params.location }},</span> <span>{{- $item.Date.Format "Jan 2006" -}}.</span>
       {{ end }}
     {{ else if eq (index $.item.Params.publication_types 0) "2"}}
       {{ if $item.Params.comment }}
           <span>{{- $item.Date.Format "2006" -}},</span> <span>{{- $item.Params.comment -}}.</span>
       {{ else }}
-          <span>{{- $item.Date.Format "Jan, 2006" -}}.</span>
+          <span>{{- $item.Date.Format "Jan 2006" -}}.</span>
       {{ end }}
     {{ else }}
         <font color="red">Unexpected publication_types!</font>
