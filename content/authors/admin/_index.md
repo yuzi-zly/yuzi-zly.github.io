@@ -28,8 +28,8 @@ organizations:
 
 # Interests to show in About widget
 interests:
-  - Consistency Management
-  - Property Checking
+  - Software Consistency Management
+  - Software Constraint Mining
   - Software Quality Assurance
 
 # Education to show in About widget
@@ -73,7 +73,7 @@ email: 'zly@smail.nju.edu.cn'
 highlight_name: true
 ---
 
-Hello! This is Lingyu Zhang (张灵毓). I am currently a Ph.D. student supervised by Assistant Researcher [Huiyan Wang](http://www.why.ink:8080) and Professor [Chang Xu](https://cs.nju.edu.cn/changxu/index.htm) at the Institute of Computer Science (ICS), State Key Laboratory for Novel Software Technology, Department of Computer Science and Technology, Nanjing University. My research interests include consistency management, property checking, and software quality assurance.
+Hello! This is Lingyu Zhang (张灵毓). I am currently a Ph.D. student supervised by Assistant Researcher [Huiyan Wang](http://www.why.ink:8080) and Professor [Chang Xu](https://cs.nju.edu.cn/changxu/index.htm) at the Institute of Computer Science (ICS), State Key Laboratory for Novel Software Technology, Department of Computer Science and Technology, Nanjing University.
 
 Before joining ICS, I obtained my Bachelor’s in Computer Science and Technology from Kuang Yaming Honors School, Nanjing University, Jiangsu, China in 2021.
 
