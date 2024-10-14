@@ -1,0 +1,16 @@
+@article{https://doi.org/10.1002/stvr.1899,
+  abstract   = {ABSTRACT Self-adaptive applications are becoming increasingly attractive, with the ability to smartly understand their runtime environments (or contexts) and deliver adaptive services, for example, location-aware navigation or resource-sensitive suggestions. However, due to inherent noises in the process of sensing and interpreting environmental information, there is a growing demand for guarding the consistency of collected contexts to avoid application misbehaviour and, at the same time, minimize extra costs. Existing work attempted to achieve this by speeding up the kernel constraint checking module inside the consistency guarding process. Most of these efforts were spent on reusing previous checking results or parallelizing the checking process, but they all leave one central step of constraint checking, that is, link generation, untouched. In this step, the checking engine provides reasons to explain the violation of constraints under check. It occupies a substantial part of the total time cost. Focusing on this key link generation step, we proposed MG, which deploys a rigourous analysis to automatically identify and avoid redundancy in the link generation without harming any correctness of the checking results. MG has been proven sound (always guaranteeing correctness) and complete (entirely removing redundancy). Moreover, based on our observation that MG's redundancy elimination also assists another core step of constraint checking to reduce unnecessary computation further, we additionally enhance MG with an escape-condition optimization to escape unnecessary evaluation of truth values to further improve the efficiency of constraint checking in an aspect other than link generation. We call it MG+ for distinguishing. Our experiments with synthesized and real-world consistency constraints reported that, compared with existing work, MG eliminates all link redundancy (83\% to 0\%), and based on it, MG+ further reduces significant truth value calculations (e.g., 49.74\% reduction when combined with ECC and Con-C). Generally, MG brought 14×\$\$ \times \$\$--500×\$\$ \times \$\$ speed-ups in link generation, and MG+ further made 1.2×\$\$ \times \$\$--1.9×\$\$ \times \$\$ speed-ups in truth value evaluation. Altogether, MG reduced the total constraint checking time up to 45.4\%, and MG+ reduced it up to 61.0\%.},
+  author     = {Chen, Chuyang and Wang, Huiyan and Zhang, Lingyu and Xu, Chang and Yu, Ping},
+  doi        = {https://doi.org/10.1002/stvr.1899},
+  eprint     = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/stvr.1899},
+  journal    = {Software Testing, Verification and Reliability},
+  keywords   = {context inconsistency, constraint checking, link redundancy},
+  note       = {e1899 stvr.1899},
+  number     = {n/a},
+  pages      = {e1899},
+  title      = {MG+: Towards Efficient Context Inconsistency Detection by Minimized Link Generation},
+  url        = {https://onlinelibrary.wiley.com/doi/abs/10.1002/stvr.1899},
+  volume     = {n/a},
+  bdsk-url-1 = {https://onlinelibrary.wiley.com/doi/abs/10.1002/stvr.1899},
+  bdsk-url-2 = {https://doi.org/10.1002/stvr.1899}
+}

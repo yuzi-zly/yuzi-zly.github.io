@@ -24,11 +24,11 @@ publication_types: ['2']
 publication: Software Testing, Verification and Reliability
 publication_short: STVR
 ccf: 'CCF-B'
-#date: '2024-09-01T00:00:00Z'
-#doi:  '10.1016/j.jss.2023.111852'
+date: '2024-10-13T00:00:00Z'
+doi:  ' 10.1002/stvr.1899'
 #volumn: '207'
 #article: '111852' 
-comment: 'forthcoming'
+# comment: 'forthcoming'
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
